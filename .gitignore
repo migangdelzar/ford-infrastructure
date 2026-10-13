@@ -1,0 +1,17 @@
+# Terraform local state and execution artifacts
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+*.auto.tfvars
+*.auto.tfvars.json
+terraform.tfvars
+terraform.tfvars.json
+
+# Local secrets and editor/OS files
+.env
+.env.*
+!.env.example
+.DS_Store
